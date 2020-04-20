@@ -8,6 +8,6 @@ namespace DatingApp.API.Models
 
         public byte[] PasswordHash { get; set; }
 
-        public byte[] PassowrdSalt { get; set; }
+        public byte[] PassowrdSalt { get; set; } 
     }
 }

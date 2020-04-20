@@ -37,6 +37,8 @@ namespace DatingApp.API.Data
                 {
                     if (computedHash[i] != passwordHash[i])
                         return false;
+                        
+
                 }
             }
             return true;
